@@ -11370,12 +11370,13 @@ html {
   align-items: center;
 }
 .divider-custom .divider-custom-line {
-  width: 100%;
-  max-width: 7rem;
-  height: 0.25rem;
+  width: 50%;
+  max-width: 2rem;
+  height: 0.1rem;
   background-color: #2c3e50;
   border-radius: 1rem;
   border-color: #2c3e50;
+  
 }
 .divider-custom .divider-custom-line:first-child {
   margin-right: 1rem;
@@ -11425,7 +11426,7 @@ html {
   color: #fff;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-  color: #1abc9c;
+  color: #2c3e50;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
   color: #fff;
@@ -11571,14 +11572,94 @@ html {
   color: white; /* White text color */
 }
 
-.html {width: 90%; background-color: #04AA6D;} /* Green */
-.css {width: 80%; background-color: #2196F3;} /* Blue */
-.js {width: 65%; background-color: #f44336;} /* Red */
-.php {width: 90%; background-color: #04AA6D;} /* Dark Grey */
-.vue {width: 50%; background-color: #f44336;} /* Dark Grey */
-.bootstrap {width: 85%; background-color: #04AA6D;} /* Dark Grey */
-.cms {width: 40%; background-color: #f44336;} /* Dark Grey */
+.html {width: 0%; background-color: #04AA6D;
+} /* Green */
+.html::after, .css::after, .js::after,.php::after,.vue::after,.bootstrap::after,.laravel::after,.jquery::after,.sql::after,.mysql::after,.ajax::after,.resetapi::after,.linux::after,.window::after,.mac::after,.cms::after,.vuejs::after{
+  content:'%';
+}
+.css {width: 0%; background-color: #04AA6D;} /* Blue */
+.js {width: 0%; background-color: #04AA6D;} /* Red */
+.php {width: 0%; background-color: #04AA6D;} /* Dark Grey */
+.vue {width: 0%; background-color: #04AA6D;} /* Dark Grey */
+.bootstrap {width: 0%; background-color: #04AA6D;} /* Dark Grey */
+.vuejs {width: 0%; background-color: #04AA6D;} /* Dark Grey */
+.laravel {width: 0%; background-color: #04AA6D;} /* Dark Grey */
+.jquery {width: 0%; background-color: #04AA6D;} /* Dark Grey */
+.sql {width: 0%; background-color: #04AA6D;} /* Dark Grey */
+.mysql {width: 0%; background-color: #04AA6D;} /* Dark Grey */
+.ajax {width: 0%; background-color: #04AA6D;} /* Dark Grey */
+.resetapi {width: 0%; background-color: #04AA6D;} /* Dark Grey */
+.linux {width: 0%; background-color: #04AA6D;} /* Dark Grey */
+.window {width: 0%; background-color: #04AA6D;} /* Dark Grey */
+.mac {width: 0%; background-color: #04AA6D;} /* Dark Grey */
 
+.cms {width: 0%; background-color: #f44336;} /* Dark Grey */
+.skill{
+  width:100%;background-color:#3333;
+}
+
+.html{
+  animation: html-fill 3s forwards;
+}
+.css,.bootstrap{
+  animation: css-fill 3s forwards;
+}
+.js,.vuejs,.jquery,.ajax,.resetapi,.linux,.window,.mac{
+  animation: js-fill 3s forwards;
+}
+.php,.sql{
+  animation: php-fill 3s forwards;
+}
+.bootstrap{
+  animation: bootstrap-fill 3s forwards;
+}
+.cms{
+  animation: cms-fill 3s forwards;
+}
+.mysql,.laravel{
+  animation: laravel-fill 3s forwards;
+
+}
+@keyframes html-fill{
+  100%{
+      width: 90%;
+  }
+}
+
+@keyframes css-fill{
+  100%{
+      width: 80%;
+  }
+}
+
+@keyframes bootstrap-fill{
+  100%{
+      width: 80%;
+  }
+}
+
+@keyframes js-fill{
+  100%{
+      width: 65%;
+  }
+}
+
+@keyframes php-fill{
+  100%{
+      width: 90%;
+  }
+}
+@keyframes laravel-fill{
+  100%{
+      width: 85%;
+  }
+}
+
+@keyframes cms-fill{
+  100%{
+      width: 40%;
+  }
+}
 .skills p{
   color:#333;
 }
@@ -11586,3 +11667,32 @@ html {
 .col-2{
   margin-bottom: 10px;
 }
+
+#about{
+  transition:  2s;
+ transition-timing-function: ease-in;
+}
+
+.fadeInLeft {
+  display: inline-block;
+  margin: 0 0.5rem;
+
+  animation: fadeInLeft; 
+  animation-duration: 3s; 
+}
+
+
+.fadeInRight {
+  display: inline-block;
+  margin: 0 0.5rem;
+
+  animation: fadeInRight; 
+  animation-duration: 3s; 
+}
+
+
+
+/* #dev_desc{
+  background-image: url("../assets/img/portfolio/green.png");
+  width: 100%;
+} */

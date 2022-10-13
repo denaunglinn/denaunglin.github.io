@@ -10,6 +10,8 @@
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
         <link href="css/styles.css" rel="stylesheet" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     </head>
     <body id="page-top">    
         <nav class="navbar navbar-expand-lg bg-primary text-uppercase fixed-top" id="mainNav">
@@ -23,7 +25,7 @@
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#about">About</a></li>
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#skills">Skills</a></li>
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#dev_tools">Development Tools</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#devtools">Development Tools</a></li>
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#experiences">Experience</a></li>
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#projects">Projects</a></li>
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#contact">Contact</a></li>
@@ -33,168 +35,220 @@
         </nav>
         <!-- Masthead-->
         <header class="masthead bg-primary text-white text-center">
-            <div class="container d-flex align-items-center flex-column">
-                <!-- Masthead Avatar Image-->
-                <img class="masthead-avatar mb-5" src="assets/img/portfolio/naung.gif" alt="..." />
-                <!-- Masthead Heading-->
-                <h1 class="masthead-heading text-uppercase mb-0">De Naung Lin </h1>
-                <p class="masthead-subheading font-weight-light mb-0">Web Application Developer</p>
-
-                <!-- Icon Divider-->
-                <div class="divider-custom divider-light">
-                    <a href="https://www.linkedin.com/in/de-naung-lin-245259178/">
-                        <img class="img-fluid mr-3 border rounded-circle border-secondary"  width="50px"  src="assets/img/portfolio/linkin.png" alt="..." />
-                    </a>
-
-                    <a href="https://github.com/denaunglinn">
-                        <img class="img-fluid mr-3 border rounded-circle border-secondary" width="50px" src="assets/img/portfolio/git.png" alt="..." />
-                    </a>
-                   
-                    <a href="https://www.facebook.com/profile.php?id=100009768605254">
-                        <img class="img-fluid border rounded-circle border-secondary" width="50px"  src="assets/img/portfolio/facebook.png" alt="..." />
-                    </a>
+            <div class="row">
+                <div class="col-6" >
+                    <div class="container d-flex align-items-center flex-column">
+                        <!-- Masthead Avatar Image-->
+                        <img class="masthead-avatar mb-5" src="assets/img/portfolio/naung.gif" alt="..." />
+                        <!-- Masthead Heading-->
+                        <h3 class="masthead-heading text-uppercase mb-0"> De Naung Lin </h3>
+                        <p class="masthead-subheading font-weight-light mb-0">Web Application Developer</p>
+        
+                        <!-- Icon Divider-->
+                        <div class="divider-custom divider-light">
+                            <a href="https://www.linkedin.com/in/de-naung-lin-245259178/">
+                                <img class="img-fluid  border rounded-circle border-secondary"  width="30px"  src="assets/img/portfolio/linkin.png" alt="..." />
+                            </a>
+                            <div class="divider-custom-line"></div>
+                            <a href="https://github.com/denaunglinn">
+                                <img class="img-fluid  border rounded-circle border-secondary" width="30px" src="assets/img/portfolio/git.png" alt="..." />
+                            </a>               
+                            <div class="divider-custom-line"></div>
+                            <a href="https://www.facebook.com/profile.php?id=100009768605254">
+                                <img class="img-fluid border rounded-circle border-secondary" width="30px"  src="assets/img/portfolio/facebook.png" alt="..." />
+                            </a>
+                        </div>
+                        <!-- Masthead Subheading-->
+                    </div>
                 </div>
-                <!-- Masthead Subheading-->
+                <div class="col-6 " >
+                    <p class="lead pt-5 mt-5" style="text-align: left;" ><span style="font-size: larger;">Hello, I'm   <b style="font-size: larger;" class="text-light "> De </b> </span> .....  <br> 24  years old Burmese  <br> Web Application Developer  living in Yangon . <br> I graduated form the   University of Computer Studies with Bachelor Degree in Computer Technology since 2019.   </p>
+                    <button class="btn float-start btn-secondary text-light btn-outline-dark">Check Out My Blogs</button>
+                </div>
             </div>
+           
         </header>
+
+        <section class="page-section bg-light text-secondary mb-0 " id="about">
+            <div class="container">
+                <h2 class="page-section-heading text-center text-uppercase text-secondary">About</h2>
+                <div class="row mt-5">
+                    <div class="col-lg-4 ms-auto  fadeInLeft" ><p class="lead" data-aos="fade-right" >Hello, I'm De , 24 years old burmese web application developer living in Yangon. I graduated form the University of Computer Studies with Bachelor Degree in Computer Technology. After 3 years working
+                         as a Web Application Developer I have welled experience in Web Development Industry especially with PHP ( Laravel ) .  </p></div>
+                    <div class="col-lg-4 me-auto fadeInRight"><p class="lead" data-aos="fade-left">I consider myself as a self-taught person , constantly learning and looking forward to learning new things to improve my skills and experiences.</p></div>
+                </div>                
+            </div>
+        </section>
 
         <section class="page-section skills mt-5" id="skills">
             <div class="container">
                 <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Skills</h2>
-                <div class="row mt-4">
-                    <div class="col-2">
-                        <div class="card">
+                <div class="row mt-5 " data-aos="fade-right">
+                    <div class="col-2 " >
+                        <div class="card border-0" >
                             <div class="card-body">
                                 <p>HTML</p>
-                                <div class=" html">90%</div>
+                                <div class="skill">
+                                    <div class="html" id="html">90%</div>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-2">
-                        <div class="card">
+                        <div class="card border-0">
                             <div class="card-body">
                                 <p>CSS</p>
-                                <div class=" css">80%</div>
+                                <div class="skill">
+                                    <div class="css" id="css">80%</div>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-2">
-                        <div class="card">
+                        <div class="card border-0">
                             <div class="card-body">
                                 <p>JavaScript</p>
-                                <div class=" js">65%</div>
+                                <div class="skill">
+                                    <div class=" js" id="js">65%</div>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-2">
-                        <div class="card">
+                        <div class="card border-0">
                             <div class="card-body">
                                 <p>PHP</p>
-                                <div class=" php">90%</div>
+                                <div class="skill">
+                                    <div class=" php" id="php">90%</div>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-2">
-                        <div class="card">
+                        <div class="card border-0">
                             <div class="card-body">
                                 <p>Vue.js</p>
-                                <div class=" vue">50%</div>
+                                <div class="skill">
+                                    <div class=" vuejs"id="vue_js" >60%</div>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-2">
-                        <div class="card">
+                        <div class="card border-0">
                             <div class="card-body">
                                 <p>BootStrap</p>
-                                <div class=" bootstrap">85%</div>
+                                <div class="skill">
+                                    <div class=" bootstrap" id="bootstrap">85%</div>
+                                </div>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-2">
-                        <div class="card">
+                        <div class="card border-0">
                             <div class="card-body">
                                 <p>Larvel</p>
-                                <div class=" bootstrap">85%</div>
+                                <div class="skill">
+                                    <div class=" laravel" id="laravel">85%</div>
+                                </div>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-2">
-                        <div class="card">
+                        <div class="card border-0">
                             <div class="card-body">
                                 <p>jQuery</p>
-                                <div class=" js">65%</div>
+                                <div class="skill"> 
+                                    <div class=" jquery" id="jquery">65%</div>
+                                </div>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-2">
-                        <div class="card">
+                        <div class="card border-0">
                             <div class="card-body">
                                 <p>SQL</p>
-                                <div class=" bootstrap">85%</div>
+                                <div class="skill">
+                                    <div class=" sql" id="sql">85%</div>
+                                </div>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-2">
-                        <div class="card">
+                        <div class="card border-0">
                             <div class="card-body">
                                 <p>MySQL</p>
-                                <div class=" bootstrap">85%</div>
+                                <div class="skill">
+                                    <div class=" mysql" id="mysql">85%</div>
+                                </div>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-2">
-                        <div class="card">
+                        <div class="card border-0">
                             <div class="card-body">
                                 <p>Ajax</p>
-                                <div class=" js">65%</div>
+                                <div class="skill">
+                                    <div class=" ajax" id="ajax">65%</div>
+                                </div>
                             </div>
                         </div>
                     </div>
                   
                     <div class="col-2">
-                        <div class="card">
+                        <div class="card border-0">
                             <div class="card-body">
                                 <p>Reset Api</p>
-                                <div class=" bootstrap">85%</div>
+                                <div class="skill">
+                                    <div class=" resetapi" id="resetapi">85%</div>
+                                </div>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-2">
-                        <div class="card">
+                        <div class="card border-0">
                             <div class="card-body">
                                 <p>CMS (WordPress)</p>
-                                <div class=" cms">40%</div>
+                                <div class="skill">
+                                    <div class=" cms" id="cms">40%</div>
+                                </div>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-2">
-                        <div class="card">
+                        <div class="card border-0">
                             <div class="card-body">
                                 <p>Linux</p>
-                                <div class=" js">60%</div>
+                                <div class="skill">
+                                    <div class=" linux" id="linux">60%</div>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-2">
-                        <div class="card">
+                        <div class="card border-0">
                             <div class="card-body">
                                 <p>Window</p>
-                                <div class=" js">60%</div>
+                                <div class="skill">
+                                    <div class=" window" id="window">60%</div>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-2">
-                        <div class="card">
+                        <div class="card border-0">
                             <div class="card-body">
                                 <p>Mac</p>
-                                <div class=" js">60%</div>
+                                <div class="skill">
+                                    <div class=" mac" id="mac">60%</div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -203,77 +257,185 @@
             </div>
         </section>
 
-        <section class="page-section dev_tools" id="dev_tools">
+        <section class="page-section " id="devtools">
             <div class="container">
                 <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Development Tools</h2>
-                <div class="row justify-content-center">
+                <div class="row  justify-content-center mt-5"  >
                     <div class="col-md-2 col-lg-2 mb-5">
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" width="50%" src="assets/img/portfolio/git.png" alt="..." />
-                        </div>
+                       <div class="card-body bg-light border border-secondary text-secondary text-center" data-aos="fade-up-left">
+                        <h5>Github</h5>
+                        <img class="img-fluid" width="53%" src="assets/img/portfolio/git.png" alt="..." / >
+                       </div>
                     </div>
                     <div class="col-md-2 col-lg-2 mb-5">
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal2">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
+                        <div class="card-body bg-light border border-secondary text-secondary text-center" data-aos="fade-up-left">
+                            <h5>Vs Code</h5>
                             <img class="img-fluid" width="70%" src="assets/img/portfolio/vs.png" alt="..." />
                         </div>
                     </div>
                     <div class="col-md-2 col-lg-2 mb-5">
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal3">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
+                        <div class="card-body bg-light border border-secondary text-secondary text-center" data-aos="fade-up-right">
+                            <h5>PostMan</h5>
                             <img class="img-fluid"  width="55%" src="assets/img/portfolio/pm.webp" alt="..." />
                         </div>
                     </div>
                     <div class="col-md-2 col-lg-2 mb-5">
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal3">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" width="55%" src="assets/img/portfolio/sq.png" alt="..." />
+                        <div class="card-body bg-light border border-secondary text-secondary text-center" data-aos="fade-up-right">
+                            <h5>SquelPro</h5>
+                            <img class="img-fluid" width="54%" src="assets/img/portfolio/sq.png" alt="..." />
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-lg-2 mb-5">
+                        <div class="card-body bg-light border border-secondary text-secondary text-center" data-aos="fade-up-right">
+                            <h5>PhpStorm</h5>
+                            <img class="img-fluid" width="54%" src="assets/img/portfolio/php.png" alt="..." />
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-lg-2 mb-5">
+                        <div class="card-body bg-light border border-secondary text-secondary text-center" data-aos="fade-up-right">
+                            <h5>XAMPP</h5>
+                            <img class="img-fluid" width="54%" src="assets/img/portfolio/xampp.png" alt="..." />
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-lg-2 mb-5">
+                        <div class="card-body bg-light border border-secondary text-secondary text-center pb-5" data-aos="fade-up-left">
+                            <h5>PhpMyAdmin</h5>
+                            <img class="img-fluid" width="70%"  src="assets/img/portfolio/my_admin.svg" alt="..." />
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-lg-2 mb-5">
+                        <div class="card-body bg-light border border-secondary text-secondary text-center" data-aos="fade-up-left">
+                            <h5>HeidiSql</h5>
+                            <img class="img-fluid" width="57%" src="assets/img/portfolio/heidi.png" alt="..." />
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-lg-2 mb-5">
+                        <div class="card-body bg-light border border-secondary text-secondary text-center" data-aos="fade-up-right">
+                            <h5>npm</h5>
+                            <img class="img-fluid" width="57%" src="assets/img/portfolio/npm.png" alt="..." />
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="page-section experiences" id="experiences">
+        <section class="page-section " id="experiences">
             <div class="container">
-                <!-- Portfolio Section Heading-->
                 <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Experiences</h2>
-                <!-- Portfolio Grid Items-->
-                <div class="row justify-content-center">
-                    <!-- Portfolio Item 1-->
-                    <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                <div class="row mt-5 justify-content-center">
+                    <div class="col-md-4 col-lg-4 mb-5">
+                        <div class="card" data-aos="zoom-in-right">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Apex Group </h5>
+                                (2019 Dec - Current)
+                                <p class="card-text">
+                                    <ul>
+                                        <li>
+                                            Develop Company's Travel and Tourism functionable booking reservation websites (Apex Hotel / Dawei Resort)
+                                            https://daweiresort.apexyadana.com/ , https://apexhotel.apexyadana.com/
+                                        </li>
+                                        <li>
+                                            Responsible for project design and process flow
+                                        </li>
+                                        <li>
+                                            Collaborate with android team for (Api / WebView / fixing bug) to launch Android and IO application.
+                                        </li>
+                                        <li>
+                                            Launched Apex Hotel and Dawei Resort hotel's websites.
+                                        </li>
+                                        <li>
+                                            Server Maintains and provide user experience
+                                        </li>
+                                        <li>
+                                            Testing Performance and problem solving
+                                        </li>
+                                        <li>
+                                            Provide as a part to develop other Company’s software projects features
+                                            (Apex Gas and Oil Terminal/Fish & prawn/StarFish Social/Starfish Zay/Marketing Support Portal )
+                                        </li>
+                                        <li>
+                                            https://starfishmyanmar.com/super-market/choose-order-type ,https://starfishmyanmar.com/community ,https://starfishmyanmar.com/marketing-support-portal/
+                                        </li>
+                                        <li>
+                                            Daily Report to Team Leader
+                                        </li>
+                                        <li>
+                                            Self-Development & Task Management
+                                        </li>
+                                    </ul>
+                                </p>
                             </div>
-                            <img class="img-fluid" src="assets/img/portfolio/cabin.png" alt="..." />
                         </div>
                     </div>
-                    <!-- Portfolio Item 2-->
-                    <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal2">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                    <div class="col-md-4 col-lg-4 mb-5">
+                        <div class="card" data-aos="zoom-in-right">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">ApexWebsites&SoftwareServices Col.Ltd </h5>
+                                (2019 . Aug - 2019 . Nov)
+                                <p class="card-text">
+                                    <ul>
+                                        <li>
+                                            Develop new and maintain old customers websites
+                                        </li>
+                                        <li>
+                                            Collaborate with Web design team for User Interface
+                                        </li>
+                                        <li>
+                                            Launched websites using cPanel and point domain
+                                        </li>
+                                        <li>
+                                            Server Maintains
+                                        </li>
+                                        <li>
+                                            Collaborate with marketing team and provide training for the customers
+                                        </li>
+                                        <li>
+                                            ▫ https://NgweKyalSinHein.com, <br>
+                                            ▫ https://Nozomi.com, <br>
+                                            ▫ https://skbmm.com,<br>
+                                            ▫ https://apexwebsitesoftware.com/RaceOfAsia/public<br>
+                                            ▫ https://apexwebsitesoftware.com/apex_synergy/public ▫ https://apexwebsitesoftware.com/monent/public<br>
+                                            ▫ https://apexwebsitesoftware.com/advanced/public<br>
+                                            ▫ https://apexwebsitesoftware.com/rose/public<br>
+                                            ▫ https://apexwebsitesoftware.com/Triangle/public<br>
+                                            ▫ https://apexwebsitesoftware.com/naturalCulture/public<br>
+                                        </li>
+                                    </ul>
+                                </p>
                             </div>
-                            <img class="img-fluid" src="assets/img/portfolio/cake.png" alt="..." />
                         </div>
                     </div>
-                    <!-- Portfolio Item 3-->
-                    <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal3">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                    <div class="col-md-4 col-lg-4 mb-5">
+                        <div class="card" data-aos="zoom-in-right">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">SpiceWorks (Japan/Myanmar) </h5>
+                                (2019 . May - 2019 . July)
+                                <p class="card-text">
+                                    <ul>
+                                        <li>
+                                            Develop Internship web project with other internship members as an intern team leader
+                                        </li>
+                                        <li>
+                                            Task management and self-management
+                                        </li>
+                                        <li>
+                                            Weekly Meeting for learning Japanese manners
+                                        </li>
+                                        <li>
+                                            languages and presentation
+                                        </li>
+                                        <li>
+                                            Provide projects that related with lessons assigned by senior developer
+                                        </li>
+                                        <li>
+                                            Support and provide other internship member for Laravel and Web development lessons
+                                        </li>
+                                        <li>
+                                            Participate as a member of Web Innovative Talent Award Celebration, weekly cleaning , meeting
+                                        </li>
+                                    </ul>
+                                </p>
                             </div>
-                            <img class="img-fluid" src="assets/img/portfolio/circus.png" alt="..." />
                         </div>
                     </div>
                 </div>
@@ -282,160 +444,92 @@
 
         <section class="page-section projects" id="projects">
             <div class="container">
-                <!-- Portfolio Section Heading-->
                 <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Projects</h2>
-                <!-- Portfolio Grid Items-->
-                <div class="row justify-content-center">
-                    <!-- Portfolio Item 1-->
-                    <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/cabin.png" alt="..." />
-                        </div>
-                    </div>
-                    <!-- Portfolio Item 2-->
-                    <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal2">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/cake.png" alt="..." />
-                        </div>
-                    </div>
-                    <!-- Portfolio Item 3-->
-                    <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal3">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/circus.png" alt="..." />
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- About Section-->
-        <section class="page-section bg-primary text-white mb-0" id="about">
-            <div class="container">
-                <!-- About Section Heading-->
-                <h2 class="page-section-heading text-center text-uppercase text-white">About</h2>
-                <!-- Icon Divider-->
-                <div class="divider-custom divider-light">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                    <div class="divider-custom-line"></div>
-                </div>
-                <!-- About Section Content-->
                 <div class="row">
-                    <div class="col-lg-4 ms-auto"><p class="lead">Hello, I'm D , 24 years old burmese web application developer living in Yangon. I graduated form the University of Computer Studies with Bachelor Degree in Computer Technology. After 3 years working
-                         as a Web Application Developer I have welled experience in Web Development Industry especially with PHP ( Laravel ) .  </p></div>
-                    <div class="col-lg-4 me-auto"><p class="lead">I consider myself as a self-taught person , constantly learning and looking forward to learning new things to improve my skills and experiences.</p></div>
+                    <div class="col-md-12 col-lg-12">
+                        <div class="row">
+                            <div class="col-md-6 col-lg-6 mb-6" data-aos="fade-right" data-aos-duration="2000">
+                                <img class="img-fluid" src="assets/img/portfolio/apexhotel.png" alt="..." />
+                            </div>
+                            <div class="col-md-6 col-lg-6 mb-6" data-aos="fade-left" data-aos-duration="2000">
+                                <div class="mt-5">
+                                    <h3>Apex Hotel</h3>
+                                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus consequatur et voluptatibus temporibus dolor possimus corporis in quod, eum accusantium atque natus molestias voluptates, dolores voluptatum iste odio omnis at. </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-lg-12">
+                        <div class="row">
+                            <div class="col-md-6 col-lg-6 mb-6" data-aos="fade-right" data-aos-duration="2000">
+                                <img class="img-fluid" src="assets/img/portfolio/dawei.png" alt="..." />
+                            </div>
+                            <div class="col-md-6 col-lg-6 mb-6" data-aos="fade-left" data-aos-duration="2000">
+                                <div class="mt-5">
+                                    <h3>Dawei Resort</h3>
+                                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus consequatur et voluptatibus temporibus dolor possimus corporis in quod, eum accusantium atque natus molestias voluptates, dolores voluptatum iste odio omnis at. </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-lg-12">
+                        <div class="row">
+                            <div class="col-md-6 col-lg-6 mb-6" data-aos="fade-right" data-aos-duration="2000">
+                                <div class="mt-5">
+                                    <h3>Starfish Myanmar</h3>
+                                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus consequatur et voluptatibus temporibus dolor possimus corporis in quod, eum accusantium atque natus molestias voluptates, dolores voluptatum iste odio omnis at. </p>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-6 mb-6" data-aos="fade-left" data-aos-duration="2000">
+                                <img class="img-fluid" src="assets/img/portfolio/starfish.png" alt="..." />
+                            </div>
+                          
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-lg-12">
+                        <div class="row">
+                            <div class="col-md-6 col-lg-6 mb-6" data-aos="fade-right" data-aos-duration="2000">
+                                <div class="mt-5">
+                                    <h3>ApexGas&Oil </h3>
+                                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus consequatur et voluptatibus temporibus dolor possimus corporis in quod, eum accusantium atque natus molestias voluptates, dolores voluptatum iste odio omnis at. </p>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-6 mb-6" data-aos="fade-left" data-aos-duration="2000">
+                                <img class="img-fluid" src="assets/img/portfolio/apex.png" alt="..." />
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <!-- About Section Button-->
-                
             </div>
         </section>
+       
         <!-- Contact Section-->
         <section class="page-section" id="contact">
             <div class="container">
                 <!-- Contact Section Heading-->
-                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Contact Me</h2>
-                <!-- Icon Divider-->
-                <div class="divider-custom">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                    <div class="divider-custom-line"></div>
-                </div>
-                <!-- Contact Section Form-->
-                <div class="row justify-content-center">
-                    <div class="col-lg-8 col-xl-7">
-                        <form id="contactForm" data-sb-form-api-token="API_TOKEN">
-                            <!-- Name input-->
-                            <div class="form-floating mb-3">
-                                <input class="form-control" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required" />
-                                <label for="name">Full name</label>
-                                <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
-                            </div>
-                            <!-- Email address input-->
-                            <div class="form-floating mb-3">
-                                <input class="form-control" id="email" type="email" placeholder="name@example.com" data-sb-validations="required,email" />
-                                <label for="email">Email address</label>
-                                <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
-                                <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
-                            </div>
-                            <!-- Phone number input-->
-                            <div class="form-floating mb-3">
-                                <input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890" data-sb-validations="required" />
-                                <label for="phone">Phone number</label>
-                                <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
-                            </div>
-                            <!-- Message input-->
-                            <div class="form-floating mb-3">
-                                <textarea class="form-control" id="message" type="text" placeholder="Enter your message here..." style="height: 10rem" data-sb-validations="required"></textarea>
-                                <label for="message">Message</label>
-                                <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
-                            </div>
-                            <!-- Submit success message-->
-                            <!---->
-                            <!-- This is what your users will see when the form-->
-                            <!-- has successfully submitted-->
-                            <div class="d-none" id="submitSuccessMessage">
-                                <div class="text-center mb-3">
-                                    <div class="fw-bolder">Form submission successful!</div>
-                                    To activate this form, sign up at
-                                    <br />
-                                    <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
-                                </div>
-                            </div>
-                            <!-- Submit error message-->
-                            <!---->
-                            <!-- This is what your users will see when there is-->
-                            <!-- an error submitting the form-->
-                            <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
-                            <!-- Submit Button-->
-                            <button class="btn btn-primary btn-xl disabled" id="submitButton" type="submit">Send</button>
-                        </form>
+                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Get In Touch</h2>
+                <div class="container">
+                    <div class="row text-center">
+                        <div class="col-lg-12 mt-5 mb-5 mb-lg-0">
+                            <h4 class="text-uppercase mb-4">Location</h4>
+                            <p class="lead mb-0">
+                                No.55 , Aung Tha Pyay str, 
+                                <br />
+                                Sanchaung Tws, Yanong.
+                            </p>
+                        </div>
+                        <div class="col-lg-12 mt-5 mb-5 mb-lg-0">
+                            <h4 class="text-uppercase mb-4">Social</h4>
+                            <a class="btn btn-outline-dark btn-social mx-1" href="#!"><i class="fa fa-envelope"></i></a>
+                            <a class="btn btn-outline-dark btn-social mx-1" href="#!"><i class="fab fa-fw fa-facebook-f"></i></a>
+                            <a class="btn btn-outline-dark btn-social mx-1" href="#!"><i class="fab fa-fw fa-linkedin-in"></i></a>
+                            <a class="btn btn-outline-dark btn-social mx-1" href="#!"><i class="fab fa-fw fa-github"></i></a>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- Footer-->
-        <footer class="footer text-center">
-            <div class="container">
-                <div class="row">
-                    <!-- Footer Location-->
-                    <div class="col-lg-4 mb-5 mb-lg-0">
-                        <h4 class="text-uppercase mb-4">Location</h4>
-                        <p class="lead mb-0">
-                            No.55 , Aung Tha Pyay str, 
-                            <br />
-                            Sanchaung Tws, Yanong.
-                        </p>
-                    </div>
-                    <!-- Footer Social Icons-->
-                    <div class="col-lg-4 mb-5 mb-lg-0">
-                        <h4 class="text-uppercase mb-4">Around the Web</h4>
-                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-facebook-f"></i></a>
-                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-twitter"></i></a>
-                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-linkedin-in"></i></a>
-                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-dribbble"></i></a>
-                    </div>
-                    <!-- Footer About Text-->
-                    <div class="col-lg-4">
-                        <h4 class="text-uppercase mb-4">About Freelancer</h4>
-                        <p class="lead mb-0">
-                            Freelance is a free to use, MIT licensed Bootstrap theme created by
-                            <a href="http://startbootstrap.com">Start Bootstrap</a>
-                            .
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </footer>
-
+    
         <div class="copyright py-4 text-center text-white">
             <div class="container"><small>Copyright &copy; Website 2022</small></div>
         </div>
@@ -471,11 +565,13 @@
                 </div>
             </div>
         </div>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
         <script src="js/scripts.js"></script>
-        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
         <script>
+           
+           AOS.init();
            
            $('body').append('<div style="" id="loadingDiv"><div class="loader">Loading...</div></div>');
             $(window).on('load', function(){
@@ -486,6 +582,56 @@
                 $( "#loadingDiv" ).remove();
             });  
             }
+
+           
+            function animateValue(obj, start, end, duration) {
+            let startTimestamp = null;
+            const step = (timestamp) => {
+                if (!startTimestamp) startTimestamp = timestamp;
+                const progress = Math.min((timestamp - startTimestamp) / duration, 1);
+                obj.innerHTML = Math.floor(progress * (end - start) + start);
+                if (progress < 1) {
+                window.requestAnimationFrame(step);
+                }
+            };
+            window.requestAnimationFrame(step);
+            }
+            const obj = document.getElementById("html");
+            const obj1 = document.getElementById("css");
+            const obj2 = document.getElementById("js");
+            const obj3 = document.getElementById("php");
+            const obj4 = document.getElementById("bootstrap");
+            const obj5 = document.getElementById("cms");
+            const obj6 = document.getElementById("vue_js");
+            const obj7 = document.getElementById("laravel");
+            const obj8 = document.getElementById("jquery");
+            const obj9 = document.getElementById("sql");
+            const obj10 = document.getElementById("mysql");
+            const obj11 = document.getElementById("ajax");
+            const obj12 = document.getElementById("resetapi");
+            const obj13 = document.getElementById("linux");
+            const obj14 = document.getElementById("window");
+            const obj15 = document.getElementById("mac");
+
+            animateValue(obj, 0, 90, 3000);
+            animateValue(obj1, 0, 80, 3000);
+            animateValue(obj2, 0, 65, 3000);
+            animateValue(obj3, 0, 90, 3000);
+            animateValue(obj4, 0, 80, 3000);
+            animateValue(obj5, 0, 40, 3000);
+            animateValue(obj6, 0, 65, 3000);
+            animateValue(obj7, 0, 85, 3000);
+            animateValue(obj8, 0, 65, 3000);
+            animateValue(obj9, 0, 90, 3000);
+            animateValue(obj10, 0, 85, 3000);
+            animateValue(obj11, 0, 65, 3000);
+            animateValue(obj12, 0, 65, 3000);
+            animateValue(obj13, 0, 65, 3000);
+            animateValue(obj14, 0, 65, 3000);
+            animateValue(obj15, 0, 65, 3000);
+
+
+              
           </script>
           
     </body>
