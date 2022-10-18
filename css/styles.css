@@ -11690,7 +11690,8 @@ html {
   animation-duration: 3s; 
 }
 
-
+#more {display: none;} 
+#more2 {display: none;} 
 
 /* #dev_desc{
   background-image: url("../assets/img/portfolio/green.png");
