@@ -140,6 +140,16 @@
                     <div class="col-2">
                         <div class="card border-0">
                             <div class="card-body">
+                                <p>Nuxt.js</p>
+                                <div class="skill">
+                                    <div class=" vuejs"id="vue_js" >60%</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="card border-0">
+                            <div class="card-body">
                                 <p>BootStrap</p>
                                 <div class="skill">
                                     <div class=" bootstrap" id="bootstrap">85%</div>
@@ -152,6 +162,17 @@
                         <div class="card border-0">
                             <div class="card-body">
                                 <p>Larvel</p>
+                                <div class="skill">
+                                    <div class=" laravel" id="laravel">85%</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-2">
+                        <div class="card border-0">
+                            <div class="card-body">
+                                <p>Codeigniter</p>
                                 <div class="skill">
                                     <div class=" laravel" id="laravel">85%</div>
                                 </div>
@@ -329,8 +350,42 @@
                     <div class="col-md-4 col-lg-4 mb-5">
                         <div class="card" data-aos="zoom-in-right">
                             <div class="card-body">
+                                <h5 class="card-title text-center">ShweProperty.com (Real Estate) </h5>
+                                (2022 Dec - Current)
+                                <p class="card-text">
+                                    <ul>
+                                        <li>
+                                            Maintain and develope new feature of company websites and mainly deliver for Cs team needs.
+                                        </li>
+                                        <li>
+                                            Provide better performace for data syncronization with multi server.
+                                        </li>
+                                        <li>
+                                            Responsible for new feature design and admin process update
+                                        </li>
+                                        <li>
+                                            Deliver responsive design and patterns for GoNative app. <span id="dots3">...</span>
+                                        </li>
+                                     
+                                        <span id="more3">
+                                            <li>
+                                                Testing Performance and problem solving
+                                            </li>
+                                            <li>
+                                                https://www.shweproperty.com/
+                                            </li>
+                                        </span> <br>
+                                        <span onclick="more3Function()" class="text-primary" id="more3_click">Read more</span> 
+                                    </ul>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-lg-4 mb-5">
+                        <div class="card" data-aos="zoom-in-right">
+                            <div class="card-body">
                                 <h5 class="card-title text-center">Apex Group </h5>
-                                (2019 Dec - Current)
+                                (2019 Dec - 2022 Dec)
                                 <p class="card-text">
                                     <ul>
                                         <li>
@@ -534,16 +589,23 @@
                         <div class="row">
                             <div class="col-md-4 offset-4 col-lg-4 mb-6" data-aos="fade-up" data-aos-duration="2000">
                                 <div class="mt-5">
-                                    ▫ https://NgweKyalSinHein.com, <br>
-                                    ▫ https://Nozomi.com, <br>
-                                    ▫ https://skbmm.com,<br>
-                                    ▫ https://apexwebsitesoftware.com/RaceOfAsia/public<br>
-                                    ▫ https://apexwebsitesoftware.com/apex_synergy/public <br>
-                                    ▫ https://apexwebsitesoftware.com/monent/public<br>
-                                    ▫ https://apexwebsitesoftware.com/advanced/public<br>
-                                    ▫ https://apexwebsitesoftware.com/rose/public<br>
-                                    ▫ https://apexwebsitesoftware.com/Triangle/public<br>
-                                    ▫ https://apexwebsitesoftware.com/naturalCulture/public<br>
+                                    https://readersparadisemm.com/ <br>
+                                    https://testing.tamillanguageacademy.com <br>
+                                    https://www.shweproperty.com  <br>
+                                    https://starfishmyanmar.com<br>
+                                    https://apexgasnoil.com<br>
+                                    https://apexhotelmyanmar.com <br>
+                                    https://daweiresortddpc.com <br>
+                                    https://NgweKyalSinHein.com, <br>
+                                    https://Nozomi.com, <br>
+                                    https://skbmm.com, <br>
+                                    https://apexwebsitesoftware.com/RaceOfAsia <br>
+                                    https://apexwebsitesoftware.com/apex_synergy <br>
+                                    https://apexwebsitesoftware.com/advanced/public  <br>
+                                    https://apexwebsitesoftware.com/rose/public <br>
+                                    https://apexwebsitesoftware.com/Triangle/public <br>
+                                    https://apexwebsitesoftware.com/naturalCulture <br>
+
                                 </div>
                             </div>
                         </div>
@@ -669,6 +731,22 @@
             var dots = document.getElementById("dots2");
             var moreText = document.getElementById("more2");
             var btnText = document.getElementById("more2_click");
+
+            if (dots.style.display === "none") {
+                dots.style.display = "inline";
+                btnText.innerHTML = "Read more";
+                moreText.style.display = "none";
+            } else {
+                dots.style.display = "none";
+                btnText.innerHTML = "Read less";
+                moreText.style.display = "inline";
+            }
+            } 
+
+            function more3Function() {
+            var dots = document.getElementById("dots3");
+            var moreText = document.getElementById("more3");
+            var btnText = document.getElementById("more3_click");
 
             if (dots.style.display === "none") {
                 dots.style.display = "inline";
